@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Itens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de Itens</h1>
+
+    <div id="item-form">
+        <label for="item-name">Nome do Item:</label>
+        <input type="text" id="item-name">
+        <label for="item-price">Preço Unitário:</label>
+        <input type="number" id="item-price" step="0.01">
+        <label for="item-quantity">Quantidade:</label>
+        <input type="number" id="item-quantity" value="1">
+        <button id="add-item">Adicionar Item</button>
+    </div>
+
+    <ul id="item-list">
+        <!-- Itens serão adicionados aqui -->
+    </ul>
+
+    <div id="total">
+        Total: R$ <span id="total-value">0.00</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+  
